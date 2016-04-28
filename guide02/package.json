@@ -1,0 +1,17 @@
+{
+  "name": "shengnian-react-guide-02",
+  "version": "1.0.0",
+  "description": "React入门实践指南零二",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "Shengnian <guide@shengnian.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
