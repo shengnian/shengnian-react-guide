@@ -8,9 +8,13 @@ React入门实践指南零三
 
 ## 二步 安装
 `npm install react --save`
+
 `npm install react-dom --save`
+
 `npm i babel babel-core babel-loader --save-dev`
+
 `npm install babel-preset-react --save-dev`
+
 `npm install babel-preset-es2015 --save-dev`
 **注**：
 1. i 参数是 install 的简写
