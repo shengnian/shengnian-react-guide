@@ -34,9 +34,44 @@ C:\Users\shengnian>npm -version
 **注**：其它环境请自行安装。
 
 ## 四步 使用
-npm 常用命令
+
+### 更新镜像
+#### 国内优秀npm镜像
+##### 淘宝npm镜像
++ 搜索地址：http://npm.taobao.org/
++ registry地址：http://registry.npm.taobao.org/
+
+##### cnpmjs镜像
++ 搜索地址：http://cnpmjs.org/
++ registry地址：http://r.cnpmjs.org/
+
+#### 临时使用
+`npm --registry https://registry.npm.taobao.org install express`
+
+#### 持久使用
+```
+npm config set registry https://registry.npm.taobao.org
+
+// 配置后可通过下面方式来验证是否成功
+npm config get registry
+// 或
+npm info express
+```
+#### 通过cnpm使用
+```
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+// 使用
+cnpm install express
+```
+
+### npm 常用命令
 安装：`npm install  [package-name] [-g（全局）] [--save|--save-dev]`
+
 删除：`npm uninstall [package-name]`
+
 搜索：`npm search`
+
 初始化：`npm init`
+
 帮助：`npm help <command>`
